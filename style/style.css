@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Pagina Inicio */
+
+body {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    background: #2E948A;
+    align-items: center;
+    justify-content: space-between;
+    margin:  0 auto;
+}
+
+#logo-header {
+    margin: .5% 0% .5% 4%;
+}
+
+.itens-header {
+    cursor: pointer;
+    color: #FFF;
+    margin-right: 3.125rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.itens-header:hover {
+    color: #FF4081;
+}
+
+#intro {
+    padding-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.texto-inicio {
+    margin-bottom: 0rem;
+    font-size: 3.125rem;
+    color: #FF4081;
+}
+
+.subtexto-inicio {
+    font-size: 1.25rem;
+    padding-bottom: 0.375rem;
+}
+
+#saber-mais {
+    color: #FF4081;
+    border: #FF4081 solid 0.063rem;
+    border-radius: 1.875rem;
+    padding: 0.313rem 0.938rem;
+    cursor: pointer;
+}
+
+#saber-mais:hover {
+background-color: #FF4081;
+color: #FFF;
+}
+
+.banner-inicio {
+    width: 25rem;
+    height: 25rem;
+    padding-bottom: 1.875rem;
+}
+
+#tres-cursos {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #F6F6F6; */
+    padding: 4.375rem;
+    align-items: baseline;
+}
+
+#tres-cursos-cor {
+    background-color: #F6F6F6;
+}
+
+.img-tres-cursos {
+    width: 18.75rem;
+    height: 18.75rem;
+}
+
+.titulo-tres-cursos {
+    color: #FF4081;
+    font-size: 1.563rem;
+}
+
+.texto-tres-cursos {
+    padding-bottom: 1.25rem;
+}
+
+.botao-comecar {
+    background-color: #FF4081;
+    color: #FFF;
+    padding: 0.625rem 2.188rem;
+    border-radius: 2.188rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botao-comecar:hover {
+    border: #FF4081 solid 0.125rem;
+    color: #FF4081;
+    background-color: #FFF;
+}
+
+.titulo-sobre-nos {
+    font-size: 1.875rem;
+    color: #009688;
+    font-family: Nunito, sans-serif;
+    padding: 1.875rem 0 0 10rem;
+}
+
+#sobre-nos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 1.25rem auto;
+    justify-content: center;
+}
+
+.depoimentos {
+    display: flex;
+    width: 34.375rem;
+    padding: 0.938rem 3.125rem;
+}
+
+.img-depoimento {
+    padding-right: 1.25rem;
+}
+
+#fundo-cinza {
+    background-color: #F6F6F6;
+    padding-bottom: 15px;
+}
+#mais-conteudo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo-mais-conteudo {
+    font-size: 1.25rem;
+    color: #009688;
+    padding: 1.875rem 0 0 9.375rem;
+}
+
+.subtitulo-conteudo {
+    margin-top: 0.25rem;
+    color: #009688
+}
+
+#todos-posts {
+    display: block;
+    margin: 0.625rem auto;
+    margin-bottom: 0;
+    width: 9.375rem;
+    text-align: center;
+    border: #FF4081 solid 0.125rem;
+    color: #FF4081;
+    border-radius: 1.875rem;
+    padding: 0.313rem 1.563rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#todos-posts:hover {
+    background-color: #FF4081;
+    color: #fff;
+}
+
+#footer {
+    padding: 1.25rem;
+    background-color:#419488;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.itens-menu-footer {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.25rem;
+}
+
+.itens-menu-footer:hover {
+    color: #FF4081;
+}
+
+#mais-links-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0.625rem 0.625rem;
+    color: #FFF;
+}
+
+.outros-links {
+    padding: 0.313rem 1.563rem;
+    border: #FFF solid 0.125rem;
+    border-radius: 1.875rem;
+    cursor: pointer;
+}
+
+.outros-links:hover {
+    color: #FFF;
+    background-color: #FF4081;
+}
+
+/* Pagina Cursos */
+
+#titulos-cursos-dindin{
+    margin-left: 5.25rem;
+
+}
+
+.titulo-cursos-dindin {
+    font-size: 2.813rem;
+    color: #FF4081;
+    margin-bottom: 0rem;
+}
+
+.sub-cursos-dindin {
+    margin-top: 0rem;
+    font-size: 1.125rem;
+    font-weight: normal;
+}
+
+#container-cursos-dindin {
+    padding: 0.625rem 6.25rem;
+}
+
+.cursos-dindin {
+    display: flex;
+    border-bottom: #C4C4C4 solid 0.219rem;
+    gap: 1.875rem;
+    margin-bottom: 1.875rem;
+    padding: 3.125rem 0;
+    text-align: justify;   
+}
+
+.cursos-independencia {
+    display: flex;
+    gap: 1.875rem;
+    margin-bottom: 1.875rem;
+    padding: 3.125rem 0;
+    text-align: justify;   
+}
+
+.txt-titulo-curso {
+    font-size: 1.875rem;
+    color: #FF4081;
+}
+
+.sub-txt-curso {
+    max-width: 40.625rem;
+    padding-bottom: 2.5rem;
+}
+
+.img-cursos {
+    padding-right: 1.875rem;
+}
+
+.comecar-agora {
+    background-color: #419488;
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 3.125rem;
+    padding: 0.625rem 2.5rem;
+    border-radius: 1.875rem;
+    cursor: pointer;
+}
+
+.comecar-agora:hover {
+    border: #419488 solid 0.125rem;
+    background-color: #FFF;
+    color: #419488;
+}
+
+/* Pagina Curso Investimento */
+
+#intro-curso {
+    padding-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.texto-curso {
+    margin-bottom: 0rem;
+    font-size: 3.125rem;
+    color: #FF4081;
+}
+
+.subtexto-curso {
+    font-size: 1.25rem;
+    padding-bottom: 0.375rem;
+    width: 37.5rem;
+}
+
+.banner-curso {
+    width: 21.875rem;
+    height: 21.875rem;
+    padding-bottom: 1.875rem;
+}
+
+#container-curso-invest {
+    background-color: #F6F6F6;
+    padding: 0.625rem 6.25rem;
+}
+
+.curso-dindin-invest {
+    display: flex;
+    border-bottom: #C4C4C4 solid 0.219rem;
+    gap: 3.125rem;
+    margin-bottom: 1.875rem;
+    padding: 3.125rem 0;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+.aula03-invest {
+    display: flex;
+    gap: 1.875rem;
+    margin-bottom: 1.875rem;
+    padding: 3.125rem 0;
+    text-align: justify;   
+    justify-content: space-evenly;
+}
+
+.txt-titulo-invest {
+    font-size: 1.875rem;
+    color: #FF4081;
+}
+
+.sub-txt-invest {
+    font-size: 1.125rem;
+    max-width: 28.125rem;
+    padding-bottom: 2.5rem;
+
+}
+
+/* Pagina Blog  */
+
+#intro-mais-conteudo {
+    padding-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.txt-mais-conteudo {
+    margin-bottom: 0rem;
+    font-size: 3.125rem;
+    color: #009688;
+}
+
+.subtexto-conteudo {
+    font-size: 1.25rem;
+    padding-bottom: 0.375rem;
+    width: 25rem;
+}
+
+.banner-conteudo {
+    width: 20.625rem;
+    height: 20.625rem;
+    padding-bottom: 1.875rem;
+}
+
+#blog-conteudo {
+    padding: 3.125rem;
+    gap: 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #F6F6F6;
+}
+
+.subtitulo-blog {
+    color:#FF4081;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.subtitulo-blog:hover {
+    color: #419488;
+}
+
+.subtxt-blog {
+    width: 31.25rem;
+}
+
+/* Pagina Post */
+
+.post-denounce {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1.875rem 9.375rem 6.25rem 8.75rem;
+}
+
+#titulo-post {
+    font-size: 2.5rem;
+    color: #FF4081;
+    margin-bottom: 0rem;
+}
+
+.data-post {
+    font-weight: 300;
+    font-size: 0.938rem;
+    color: #9D9D9D;
+    margin-bottom: 3.125rem;
+}
+
+.img-post {
+    margin-bottom: 3.125rem;
+}
+
+.texto-post {
+    text-align: justify;
+}
+
+.subtitulo-post {
+    color: #009688;
+}
+
+.artigo-post {
+    margin-bottom: 3.75rem;
+}
+
+.titulo-post-cursos {
+    background-color: #F6F6F6;
+    color: #FF4081;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 1.875rem;
+    margin-bottom: 0rem;
+}
+
+/* Pagina Contato */
+
+#contato-dindin {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.img-contato {
+    padding-top: 1.563rem;
+    width: 28.125rem;
+    height: 28.125rem;
+}
+
+#form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.contato {
+    font-size: 2.813rem;
+    color: #FF4081;
+    margin-bottom: 0rem;
+}
+
+.enviar {
+    background-color: #FF4081;
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #FFF;
+    padding: 0.625rem 2.188rem;
+    border-radius: 2.188rem;
+    border: solid 0.125rem;
+    cursor: pointer; 
+    margin-bottom: 3.125rem;
+    width: 9.375rem;
+}
+
+.enviar:hover {
+    color: #FF4081;
+    background-color: #FFF;
+    border: #FF4081 solid 0.125rem;
+}
+
+.caixas-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+    width: 28.125rem;
+}
+
+.email-form {
+    padding-left: 1.25rem;
+    border-radius: 0.313rem;
+}
+
+.text-form {
+    padding-left: 1.25rem;
+    border-radius: 0.313rem;
+}
+
+.msg-form {
+    padding-left: 1.25rem;
+    border-radius: 0.313rem;
+    height: 9.375rem;
+    resize: none;
+}
+
+/* Responsividade Inicio */
+
+
+@media (max-width: 320px) {
+
+    #header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-header {
+        display: flex;
+        padding-left: 45px;
+    }
+
+    #intro {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .banner-inicio {
+        max-width: 300px;
+        height: 20rem;
+        padding-bottom: 0;
+    }
+
+    .texto-inicio {
+        margin-top: 0;
+    }
+
+    .subtexto-inicio {
+        padding-bottom: 20px;
+    }
+
+    #tres-cursos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-tres-cursos {
+    display: none;
+    }
+
+    .botao-comecar {
+        padding: 0;
+    }
+
+    .titulo-sobre-nos {
+        padding: 0;
+        text-align: center;
+    }
+
+    .txt-sobre-nos {
+        width: 200px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .img-depoimento {
+        width: 60px;
+        height: 60px;
+    }
+
+    .titulo-mais-conteudo {
+        padding: 0;
+        text-align: center;
+    }
+
+    #mais-conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-footer {
+        width: 280px;
+    }
+
+    #menu-footer {
+        display: inline;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .img-tres-cursos {
+        padding: 25px;
+    }
+
+    #tres-cursos {
+        display: inline;
+    }
+
+    #mais-conteudo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Responsividade Cursos */
+
+@media (max-width: 320px) {
+
+    .titulo-cursos-dindin {
+        margin-top: 0;
+        padding-top: 10px;
+    }
+
+    .img-cursos {
+        display: none;
+    }
+
+    .cursos-dindin {
+        padding-top: 0px;
+    }
+
+    .txt-titulo-curso {
+        text-align: center;
+    }
+
+    .sub-cursos-dindin {
+        display: none;
+    }
+
+    .cursos-independencia {
+        padding-top: 0px;
+    }
+
+    #container-cursos-dindin {
+        padding: 0;
+    }
+
+    .comecar-agora {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-cursos {
+        display: none;
+    }
+}
+
+/* Responsividade Curso Invest */
+
+@media (max-width: 320px) {
+    .banner-curso {
+        display: none;
+    }
+
+    #intro-curso {
+        display: inline;
+    }
+
+    .subtexto-curso {
+        display: inline;
+    }
+
+    .img-curso-invest {
+        display: none;
+    }
+
+    .curso-dindin-invest {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container-curso-invest {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-curso {
+        display: none;
+    }
+
+    #container-curso-invest {
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+    .aula03-invest {
+        margin-bottom: 0px;
+    }
+
+    .img-curso-invest {
+        display: none;
+    }
+}
+
+/* Responsividade Blog */
+
+@media (max-width: 320px) {
+    .banner-conteudo {
+        display: none;
+    }
+
+    #intro-mais-conteudo{
+        display: inline;
+    }
+
+    .subtexto-conteudo {
+        display: inline;
+    }
+
+#blog-conteudo {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.subtxt-blog {
+    display: inline;
+    }
+}
+
+@media (max-width: 768px) {
+}
+
+/* Responsividade Post */
+
+@media (max-width: 320px) {
+ .post-denounce {
+     padding: 0;
+     margin: 0;
+    }
+
+    #footer {
+        margin-top: 0px !important;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    #footer {
+        margin-top: 0px !important;
+    }
+}
+
+/* Responsividade Contato */
+
+@media (max-width: 320px) {
+    .img-contato {
+        display: none;
+    }
+
+    #contato-dindin {
+        display: inline;
+    }
+
+    .text-form {
+        width: 250px;
+    }
+
+    .email-form {
+        width: 250px;
+    }
+
+    .msg-form {
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-contato {
+        display: none;
+    }
+
+    .caixas-contato {
+        display: flex;
+        gap: 100px;
+    }
+
+    #footer {
+        margin-top: 190px;
+    }
+}
